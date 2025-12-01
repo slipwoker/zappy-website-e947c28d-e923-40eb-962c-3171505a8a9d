@@ -372,3 +372,34 @@ window.onload = function() {
         }
     }, true);
 };
+
+/* Added Component Script */
+// Optional: Smooth reveal animation on scroll
+document.addEventListener('DOMContentLoaded', function() {
+  const testimonialItems = document.querySelectorAll('.testimonial-item');
+  
+  const observerOptions = {
+    threshold: 0.15,
+    rootMargin: '0px 0px -80px 0px'
+  };
+  
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }, index * 100);
+        
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+  
+  testimonialItems.forEach(item => {
+    item.style.opacity = '0';
+    item.style.transform = 'translateY(20px)';
+    item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(item);
+  });
+});
