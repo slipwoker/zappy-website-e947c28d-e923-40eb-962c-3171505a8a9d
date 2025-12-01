@@ -1,6 +1,7 @@
 {
   "he": {
     "translation": {
+      "new_p_75": "הוסף כאן את התיאור שלך",
       "home_h1_1": "מסגרייה מקצועית שמניעה תוצאות אמיתיות",
       "home_h2_2": "ברוכים הבאים למאור מסגרות ובניו",
       "home_h2_3": "מסגריה לקבלנים במרכז - השירותים שלנו",
@@ -23,6 +24,7 @@
       "home_p_24": "בואו נדבר על הצרכים שלכם ונמצא את הפתרון המושלם עבור הפרויקט שלכם. הצוות שלנו זמין לייעוץ מקצועי וללא התחייבות.",
       "home_p_25": "© 2025 מאור מסגרות ובניו. כל הזכויות שמורות.",
       "home_p_26": "נוצר באמצעות Zappy",
+      "new_h3_74": "כותרת חדשה",
       "about_h1_1": "הסיפור שלנו - מסגרייה מובילה בישראל",
       "about_h2_2": "מי אנחנו?",
       "about_h2_3": "הערכים שלנו",
@@ -343,13 +345,12 @@
       "legal_accessibility_link_17": "[business_email]",
       "legal_accessibility_link_18": "[business_phone]",
       "legal_accessibility_link_19": "← חזרה לאתר",
-      "legal_accessibility_page_title": "הצהרת נגישות - [business_name]",
-      "new_h3_74": "כותרת חדשה",
-      "new_p_75": "הוסף כאן את התיאור שלך"
+      "legal_accessibility_page_title": "הצהרת נגישות - [business_name]"
     }
   },
   "en": {
     "translation": {
+      "new_p_75": "Add your description here",
       "home_h1_1": "Professional Metalwork Shop That Delivers Real Results",
       "home_h2_2": "Welcome to Maor Frames & Sons",
       "home_h2_3": "Metalwork Shop for Contractors in Central Israel - Our Services",
@@ -372,6 +373,7 @@
       "home_p_24": "Let's talk about your needs and find the perfect solution for your project. Our team is available for professional consultation without obligation.",
       "home_p_25": "© 2025 Maor Frames & Sons. All rights reserved.",
       "home_p_26": "Created with Zappy",
+      "new_h3_74": "New Heading",
       "about_h1_1": "Our Story - Leading Metalwork Company in Israel",
       "about_h2_2": "Who We Are?",
       "about_h2_3": "Our Values",
@@ -692,9 +694,7 @@
       "legal_accessibility_link_17": "[business_email]",
       "legal_accessibility_link_18": "[business_phone]",
       "legal_accessibility_link_19": "← Back to website",
-      "legal_accessibility_page_title": "Accessibility Statement - [business_name]",
-      "new_h3_74": "New Heading",
-      "new_p_75": "Add your description here"
+      "legal_accessibility_page_title": "Accessibility Statement - [business_name]"
     }
   }
 }
