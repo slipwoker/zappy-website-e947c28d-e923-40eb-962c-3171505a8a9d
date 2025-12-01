@@ -345,7 +345,8 @@
       "legal_accessibility_link_17": "[business_email]",
       "legal_accessibility_link_18": "[business_phone]",
       "legal_accessibility_link_19": "← חזרה לאתר",
-      "legal_accessibility_page_title": "הצהרת נגישות - [business_name]"
+      "legal_accessibility_page_title": "הצהרת נגישות - [business_name]",
+      "new_a_76": "לחץ כאן"
     }
   },
   "en": {
@@ -694,7 +695,8 @@
       "legal_accessibility_link_17": "[business_email]",
       "legal_accessibility_link_18": "[business_phone]",
       "legal_accessibility_link_19": "← Back to website",
-      "legal_accessibility_page_title": "Accessibility Statement - [business_name]"
+      "legal_accessibility_page_title": "Accessibility Statement - [business_name]",
+      "new_a_76": "Click here"
     }
   }
 }
