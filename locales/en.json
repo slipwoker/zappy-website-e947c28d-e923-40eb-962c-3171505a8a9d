@@ -87,7 +87,7 @@
   "contact_h3_9": "Business Hours",
   "contact_p_10": "Happily created by&nbsp;Zappy",
   "contact_p_11": "The professional team at Maor Frames and Sons is available to serve you. Contact us in any way that's convenient for you - phone, email or WhatsApp. We commit to getting back to you quickly and providing professional answers to any question.",
-  "contact_p_12": "[business_address]",
+  "contact_p_12": "יעל רום 5\\22, פתח תקווה, 4906215, Israel",
   "contact_p_13": "Sunday - Thursday: 08:00 - 17:00",
   "contact_p_14": "Friday: 08:00 - 13:00",
   "contact_p_15": "The map will be displayed here after setting the exact address",
@@ -170,7 +170,7 @@
   "services_li_62": "Painting and finishing",
   "contact_link_18": "Zappy",
   "contact_link_19": "[business_phone]",
-  "contact_link_20": "[business_email]",
+  "contact_link_20": "maor.sharon@gmail.com",
   "contact_link_21": "Privacy Policy",
   "contact_link_22": "Accessibility",
   "contact_link_23": "Terms of Use",
@@ -343,5 +343,6 @@
   "legal_accessibility_link_17": "[business_email]",
   "legal_accessibility_link_18": "[business_phone]",
   "legal_accessibility_link_19": "← Back to website",
-  "legal_accessibility_page_title": "Accessibility Statement - [business_name]"
+  "legal_accessibility_page_title": "Accessibility Statement - [business_name]",
+  "new_p_76": "Enter your paragraph text..."
 }
