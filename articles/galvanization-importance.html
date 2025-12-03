@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="he" dir="rtl"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>מסגרייה מקצועית למיזמי בנייה — מאור מסגרות ובניו</title>
-  <meta name="description" content="גלו שירותי מסגרייה מקצועיים שמספקים תוצאות אמיתיות. צרו קשר עוד היום לייעוץ חינם!">
+  <title>החשיבות של גלוון וצביעה איכותית בעבודות מסגרות</title>
+  <meta name="description" content="למה הברזל מחליד ואיך מונעים זאת? הכל על גלוון חם, גלוון קר וצביעה בתנור. מדריך טכני לשמירה על עבודות המסגרות שלכם.">
   <meta name="keywords" content="מסגרייה, מסגריה לקבלנים במרכז, עבודות מסגרות לפרויקטי בנייה, מסגרות אלומיניום ליזמי נדל״ן">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -60,7 +60,72 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
-<style>
+<style id="zappy-ai-page-styles">
+
+
+/* Zappy Base Styles for Edit Mode Compatibility */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; box-sizing: border-box; }
+.section { padding: 4rem 0; position: relative; display: block !important; }
+/* Reset section grid - sections should contain grids, not BE grids */
+section[data-zappy-section] { display: block !important; grid-template-columns: unset !important; }
+/* Grid layouts - use !important to ensure they apply */
+.grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; }
+.grid.grid-2 { grid-template-columns: repeat(2, 1fr) !important; }
+.grid.grid-3 { grid-template-columns: repeat(3, 1fr) !important; }
+.grid.grid-4 { grid-template-columns: repeat(4, 1fr) !important; }
+.card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+.card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.btn { display: inline-block; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: none; }
+.btn-primary { background-color: #a0a0a0; color: white; }
+.btn-primary:hover { filter: brightness(1.1); }
+/* Pricing grid specific - use !important to override AI-generated CSS */
+.pricing-grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important; }
+.pricing-card { background: #fff !important; border-radius: 16px !important; padding: 2rem !important; box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; }
+.pricing-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important; }
+.pricing-card.featured, .pricing-card.popular { border: 2px solid #a0a0a0 !important; position: relative; }
+.pricing-card .card-header { padding-bottom: 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
+.pricing-card .card-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #1f2937; }
+.pricing-card .price { font-size: 2.5rem; font-weight: 700; color: #1f2937; }
+.pricing-card .price .period { font-size: 1rem; font-weight: 400; color: #6b7280; }
+.pricing-card .plan-desc, .pricing-card .description { color: #6b7280; font-size: 0.95rem; margin-top: 0.5rem; }
+.pricing-card .card-body, .pricing-card .card-footer { text-align: center; }
+.pricing-card .features-list { list-style: none !important; padding: 0 !important; margin: 0 0 1.5rem 0 !important; text-align: right; }
+.pricing-card .features-list li { padding: 0.5rem 0; }
+.pricing-card .features-list li.disabled { color: #9ca3af; }
+.pricing-card .popular-badge { background: #a0a0a0; color: white; padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; }
+.pricing-card .btn { display: block; width: 100%; text-align: center; margin-top: 1rem; }
+.btn-outline { background: transparent !important; border: 2px solid #a0a0a0 !important; color: #a0a0a0 !important; }
+.btn-outline:hover { background: #a0a0a0 !important; color: white !important; }
+.card { background: #fff !important; border-radius: 12px !important; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; }
+@media (max-width: 768px) {
+  .container { padding: 0 1rem; }
+  .section { padding: 2.5rem 0; }
+  .grid { gap: 1.5rem; grid-template-columns: 1fr; }
+  .grid.grid-2, .grid.grid-3, .grid.grid-4 { grid-template-columns: 1fr; }
+  .pricing-grid { grid-template-columns: 1fr; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid.grid-3, .grid.grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+/* Hero container fixes - contain absolute images */
+[class*="hero"], [id*="hero"] { position: relative !important; overflow: hidden !important; }
+[class*="hero"] > .container, [id*="hero"] > .container { position: relative; z-index: 2; }
+.hero-image-wrapper, [class*="image-wrapper"] { position: relative !important; overflow: hidden !important; }
+/* Prevent hero positioning on non-hero page images */
+img[data-no-hero-position] { position: static !important; }
+/* Reset hero text colors for AI-generated pages - remove !important color overrides */
+.ai-generated-page .hero-content h1,
+.ai-generated-page .hero-content h2,
+.ai-generated-page .hero-content h3,
+.ai-generated-page .hero-content p,
+.ai-generated-page [class*="hero"] h1,
+.ai-generated-page [class*="hero"] h2,
+.ai-generated-page [class*="hero"] h3,
+.ai-generated-page [class*="hero"] p { color: unset !important; }
+/* End Zappy Base Styles */
+
+</style><style>
       /* Dropdown sub-menu styles (AI-generated page) */
       .nav-menu li:has(.sub-menu),
       nav li:has(.sub-menu),
@@ -696,103 +761,67 @@
         </li>
       </div>
     </div>
-  </nav>
-
-  <section class="hero">
-    <div class="hero-overlay"></div>
-    <img data-placeholder="hero-1" data-context="מבט רחב על מפעל מסגרות מודרני עם צוות מקצועי עובד על פרויקטי מתכת איכותיים" src="/assets/hero-hero-1.webp" alt="מסגרייה מקצועית מאור מסגרות ובניו" class="hero-img">
-    <div class="container hero-content">
-      <h1>מסגרייה מקצועית שמניעה תוצאות אמיתיות</h1>
-      <h3>פתרונות מתכת מתקדמים לקבלנים, יזמי נדל״ן ויצרנים תעשייתיים</h3>
-      <a href="/contact" class="btn-hero">בואו נדבר על הפרויקט שלכם</a>
-    </div>
-  </section>
-
-  <section class="intro-section">
-    <div class="container">
-      <div class="intro-content">
-        <h2>ברוכים הבאים למאור מסגרות ובניו</h2>
-        <p>כשמדובר במסגרייה איכותית, אנחנו מבינים שכל פרויקט דורש דיוק, מקצועיות ומחויבות לאיכות. מאור מסגרות ובניו מספקת פתרונות מסגרות מתקדמים לתעשיית הבנייה והנדל״ן במרכז הארץ ובכל רחבי ישראל. אנחנו מתמחים בעבודות מסגרות לפרויקטי בנייה, תוך שימוש בטכנולוגיות מתקדמות וחומרים איכותיים.</p>
-        <p>עם ניסיון של שנים רבות בתחום המסגרייה, אנחנו מספקים שירותים מקיפים החל משלב התכנון ועד להתקנה הסופית. הצוות המקצועי שלנו מורכב ממסגרים מנוסים שמבינים את הצרכים הייחודיים של כל לקוח ופרויקט.</p>
+  </nav><main class="page-main blog-page ai-generated-page">
+  <section class="section article-hero" id="article-3-hero" style="background-color: #f8f9fa !important; padding: 60px 0;; position: relative; overflow: hidden;" data-zappy-section="true">
+    <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
+      <h1 style="color: #202020 !important; font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2;">החשיבות הקריטית של גלוון וצביעה איכותית בעבודות מסגרות</h1>
+      <p style="color: #404040 !important; font-size: 1.2rem; margin-bottom: 30px;">תאריך פרסום: 15.05.2024 | מאת: מאור מסגרות ובניו</p>
+      <div style="width: 100%; aspect-ratio: 21/9; overflow: hidden; border-radius: 8px; margin-bottom: 40px;">
+        <img data-placeholder="rust-protection" data-context="Detailed shot of galvanized steel texture vs rusted metal" data-zappy-editable-image="true" src="/assets/page-rust-protection-1764776053686.webp" alt="תהליך גלוון מתכת" style="width: 100%; height: 100%; object-fit: cover;" class="generated-image">
       </div>
     </div>
   </section>
 
-  <section class="services-preview">
-    <div class="container">
-      <h2>מסגריה לקבלנים במרכז - השירותים שלנו</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <img data-placeholder="service-1" data-context="מסגר מקצועי מרתך מבני מתכת מורכבים בסדנת מסגרייה מודרנית" src="/assets/service-service-1.webp" alt="עבודות ריתוך ומסגרות מקצועיות" class="service-img">
-          <h3>מסגרות מתכת מותאמות אישית</h3>
-          <p>אנחנו מתמחים ביצור מסגרות מתכת מותאמות אישית לכל סוג של פרויקט בנייה. בין אם מדובר במבנים מסחריים, תעשייתיים או פרטיים, אנחנו מספקים פתרונות מדויקים שעומדים בכל הדרישות הטכניות והעיצוביות.</p>
-        </div>
-        <div class="service-card">
-          <img data-placeholder="service-2" data-context="מסגרות אלומיניום מודרניות מותקנות בפרויקט בנייה יוקרתי" src="/assets/service-service-2.webp" alt="מסגרות אלומיניום ליזמי נדל״ן" class="service-img">
-          <h3>מסגרות אלומיניום ליזמי נדל״ן</h3>
-          <p>מסגרות אלומיניום הן הבחירה המועדפת על יזמי נדל״ן המחפשים שילוב של עמידות, אסתטיקה ויעילות. אנחנו מספקים מסגרות אלומיניום איכותיות לחלונות, דלתות, חזיתות זכוכית ומערכות נוספות, תוך שמירה על סטנדרטים גבוהים של איכות ועמידות.</p>
-        </div>
-        <div class="service-card">
-          <img data-placeholder="service-3" data-context="עבודות מסגרות תעשייתיות מורכבות במפעל ייצור מודרני" src="/assets/service-service-3.webp" alt="עבודות מסגרות לפרויקטי בנייה תעשייתיים" class="service-img">
-          <h3>פתרונות תעשייתיים מתקדמים</h3>
-          <p>עבור יצרנים תעשייתיים, אנחנו מספקים חלקי מתכת מיוחדים ומסגרות תעשייתיות המותאמות לפסי ייצור ומוצרים תעשייתיים. הצוות שלנו מבין את הדרישות הספציפיות של התעשייה ומספק פתרונות שעומדים בסטנדרטים הגבוהים ביותר.</p>
-        </div>
-      </div>
-      <div class="cta-center">
-        <a href="/services" class="btn-secondary">גלו את כל השירותים שלנו</a>
+  <section class="section article-content" id="article-3-content" style="background-color: #ffffff !important; padding: 0 0 80px;" data-zappy-section="true">
+    <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
+      <p style="color: #404040 !important; font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">
+        כאשר אנו מזמינים שער לגינה, סורגים לחלונות או מעקה למרפסת, אנו מצפים שהמוצר יחזיק מעמד שנים רבות. עם זאת, הברזל, שהוא חומר הגלם העיקרי בכל מסגרייה, סובל מחולשה אחת מרכזית: הוא נוטה להתחמצן ולהחליד במגע עם חמצן ולחות. החלודה היא לא רק בעיה אסתטית; היא מחלישה את החומר ויכולה להוביל לקריסה של המבנה. כאן נכנסת לתמונה החשיבות של תהליכי הגלוון והצביעה.
+      </p>
+
+      <h2 style="color: #202020 !important; font-size: 1.8rem; margin: 40px 0 20px;">מהו גלוון ומדוע הוא הכרחי?</h2>
+      <p style="color: #404040 !important; font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">
+        גלוון הוא תהליך של ציפוי הברזל בשכבת אבץ. האבץ משמש כ"שכבת הקרבה" – הוא מתחמצן במקום הברזל ומגן עליו מפני הסביבה. קיימים שני סוגים עיקריים של גלוון הנהוגים בענף:
+      </p>
+      <ul style="color: #404040 !important; font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px; padding-right: 20px;">
+        <li style="margin-bottom: 10px;"><strong>גלוון חם:</strong> טבילת המוצר המוגמר באמבט אבץ לוהט (כ-450 מעלות). זהו הגלוון האיכותי והעמיד ביותר, והוא חובה למוצרים חיצוניים כמו שערים וגדרות. האבץ חודר לכל הפינות והחריצים ומעניק הגנה לעשרות שנים.</li>
+        <li><strong>גלוון קר:</strong> ציפוי אלקטרו-כימי עדין יותר. מתאים בעיקר למוצרים פנימיים שלא חשופים לגשם או לשמש ישירה, ומעניק גימור חלק יותר.</li>
+      </ul>
+
+      <h2 style="color: #202020 !important; font-size: 1.8rem; margin: 40px 0 20px;">צביעה בתנור (צביעה אלקטרוסטטית)</h2>
+      <p style="color: #404040 !important; font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">
+        לאחר הגלוון, מגיע שלב הצביעה. השיטה המומלצת ביותר היא צביעה בתנור באבקה. בשיטה זו, אבקת צבע נטענת במטען חשמלי ומונחת על המתכת, ולאחר מכן המוצר נכנס לתנור בחום גבוה. החום ממיס את האבקה ויוצר שכבת צבע אחידה, חזקה ועמידה בפני שריטות וקילופים. שילוב של גלוון חם וצביעה בתנור מבטיח שקט נפשי ומוצר שנראה חדש גם לאחר חורפים קשים.
+      </p>
+
+      <h2 style="color: #202020 !important; font-size: 1.8rem; margin: 40px 0 20px;">איך לוודא שקיבלתם מוצר איכותי?</h2>
+      <p style="color: #404040 !important; font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">
+        לקוחות רבים מתפתים להצעות מחיר זולות, אך לעיתים המחיר הנמוך נובע מחיסכון בתהליך הגלוון. חשוב לשאול את המסגרייה במפורש: האם המוצר עובר גלוון חם? האם הצביעה היא בתנור? מסגרייה מקצועית תספק אחריות על העבודה ועל העמידות בפני חלודה. אל תתביישו לבקש לראות דוגמאות או לקבל מפרט טכני של הטיפול בחומר.
+      </p>
+
+      <h3 style="color: #202020 !important; font-size: 1.5rem; margin: 30px 0 15px;">הסטנדרט שלנו</h3>
+      <p style="color: #404040 !important; font-size: 1.1rem; line-height: 1.8; margin-bottom: 40px;">
+        ב"מאור מסגרות ובניו", אנו לא מתפשרים על איכות. כל עבודות החוץ שלנו עוברות גלוון חם תקני וצביעה איכותית בתנור, כדי להבטיח לכם מוצר בטיחותי ואסתטי לאורך זמן.
+      </p>
+
+      <div style="background-color: #d0e0e0 !important; padding: 30px; border-radius: 8px; text-align: center;">
+        <h4 style="color: #202020 !important; font-size: 1.5rem; margin-bottom: 15px;">רוצים מוצר שיחזיק לכל החיים?</h4>
+        <p style="color: #404040 !important; margin-bottom: 20px;">צרו איתנו קשר לקבלת ייעוץ על הפתרון המתאים ביותר עבורכם.</p>
+        <a href="/contact" style="display: inline-block; background-color: #1a1a1a; color: #ffffff !important; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: 700;">דברו איתנו</a>
       </div>
     </div>
   </section>
+</main>
 
-  <section class="why-choose">
-    <div class="container">
-      <h2>למה לבחור במסגרייה שלנו?</h2>
-      <div class="features-grid">
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fas fa-medal"></i>
-          </div>
-          <h3>ניסיון של שנים</h3>
-          <p>עם ניסיון רב שנים בתחום המסגרות והמתכת, אנחנו מביאים מומחיות שאין לה תחליף. כל פרויקט מטופל בידי אנשי מקצוע מנוסים שמכירים את התעשייה לעומק.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fas fa-tools"></i>
-          </div>
-          <h3>ציוד מתקדם</h3>
-          <p>אנחנו משתמשים בציוד ובטכנולוגיות המתקדמות ביותר בתעשייה, מה שמאפשר לנו לספק עבודות מסגרות ברמת דיוק ואיכות גבוהה במיוחד.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fas fa-handshake"></i>
-          </div>
-          <h3>אמינות ומקצועיות</h3>
-          <p>אנחנו מחויבים לעמוד בלוחות זמנים ולספק שירות אמין ומקצועי. הלקוחות שלנו יודעים שהם יכולים לסמוך עלינו בכל שלב של הפרויקט.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fas fa-star"></i>
-          </div>
-          <h3>איכות ללא פשרות</h3>
-          <p>אנחנו משתמשים רק בחומרים איכותיים ביותר ומקפידים על סטנדרטים גבוהים בכל שלב של העבודה. האיכות שלנו מדברת בעד עצמה.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
-  <section class="cta-section">
-    <div class="container">
-      <div class="cta-content">
-        <h2>מוכנים להתחיל את הפרויקט הבא שלכם?</h2>
-        <p>בואו נדבר על הצרכים שלכם ונמצא את הפתרון המושלם עבור הפרויקט שלכם. הצוות שלנו זמין לייעוץ מקצועי וללא התחייבות.</p>
-        <a href="/contact" class="btn-primary">צרו קשר עכשיו</a>
-      </div>
-    </div>
-  </section>
+  
 
-  <a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+  
+
+  
+
+  
+
+  
 
   
     <!-- Legal Footer -->
