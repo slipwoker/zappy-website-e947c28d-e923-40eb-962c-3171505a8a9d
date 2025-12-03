@@ -1,6 +1,10 @@
 # Clean URL redirects for Render static hosting
 # These rewrite rules show clean URLs to users while serving .html files
 
+/articles  /articles.html  200
+/articles/contractor-guide  /articles/contractor-guide.html  200
+/articles/galvanization-importance  /articles/galvanization-importance.html  200
+/articles/metal-design-trends  /articles/metal-design-trends.html  200
 /services  /services.html  200
 /about  /about.html  200
 /contact  /contact.html  200
