@@ -466,7 +466,7 @@
   // Configuration
   var config = {
     websiteId: 'e947c28d-e923-40eb-962c-3171505a8a9d',
-    apiUrl: 'https://qaapi.zappy5.com/api/analytics/track',
+    apiUrl: 'http://localhost:5001/api/analytics/track',
     sessionDuration: 30 * 60 * 1000, // 30 minutes
     visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
     trackPageViews: true,
@@ -737,16 +737,16 @@
       
       <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
         <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
         </svg>
         <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-          <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
         </svg>
       </button>
       
       <button class="phone-header-btn" aria-label="התקשרו אלינו">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
         </svg>
       </button>
       
@@ -761,10 +761,10 @@
   </nav>
 
   <section class="hero">
-    <div class="hero-overlay"></div>
+    <div class="zappy-horizontal-grid grid" data-zappy-grid-kind="horizontal-pair" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: stretch; padding: 0 !important; max-width: 100%; margin-left: 0px; margin-right: 0px;" data-zappy-explicit-columns="true" data-zappy-anchor-height="478"><div class="hero-overlay" style="margin: 0 !important; padding: 0 !important;" data-zappy-grid-anchor="true"></div><div class="zappy-inserted-element" style="margin: 0 !important; padding: 0 !important; text-align: center; display: flex; justify-content: center; align-items: flex-start; align-self: start;"><a id="element-saved-1765701313758-fghz8hm1rzf" href="#" class="btn btn-primary" style="background-color: #1a1a1a; border: 2px solid #1a1a1a; color: #ffffff; padding: 12px 24px; border-radius: 6px; transition: all 0.3s; cursor: pointer !important; text-decoration: none; display: inline-block;" data-element-type="button">Click here</a></div></div>
     <img data-placeholder="hero-1" data-context="מבט רחב על מפעל מסגרות מודרני עם צוות מקצועי עובד על פרויקטי מתכת איכותיים" src="/assets/hero-hero-1.webp" alt="מסגרייה מקצועית מאור מסגרות ובניו" class="hero-img">
     <div class="container hero-content">
-      <h1>מסגרייה מקצועית שמניעה תוצאות אמיתיות נדגכד ,ףךף,</h1>
+      <h1>מסגרייה מקצועית שמניעה תוצאות אמיתיות</h1>
       <h3>פתרונות מתכת מתקדמים לקבלנים, יזמי נדל״ן ויצרנים תעשייתיים שלום</h3>
       <a href="/contact" class="btn-hero">בואו נדבר על הפרויקט שלכם</a>
     </div>
@@ -772,34 +772,30 @@
 
   <section class="intro-section">
     <div class="container">
-      <div class="intro-content">
-        <h2>ברוכים הבאים למאור מסגרות ובניו</h2>
-        <p>כשמדובר במסגרייה איכותית, אנחנו מבינים שכל פרויקט דורש דיוק, מקצועיות ומחויבות לאיכות. מאור מסגרות ובניו מספקת פתרונות מסגרות מתקדמים לתעשיית הבנייה והנדל״ן במרכז הארץ ובכל רחבי ישראל. אנחנו מתמחים בעבודות מסגרות לפרויקטי בנייה, תוך שימוש בטכנולוגיות מתקדמות וחומרים איכותיים.</p>
-        <p>עם ניסיון של שנים רבות בתחום המסגרייה, אנחנו מספקים שירותים מקיפים החל משלב התכנון ועד להתקנה הסופית. הצוות המקצועי שלנו מורכב ממסגרים מנוסים שמבינים את הצרכים הייחודיים של כל לקוח ופרויקט.</p>
-      </div>
+      <div class="zappy-horizontal-grid grid zappy-preserve-css-grid" data-zappy-grid-kind="horizontal-pair" style="display: grid; gap: 20px; align-items: stretch; max-width: 800px; margin-left: 280px; margin-right: 280px; grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr) !important;" data-zappy-explicit-columns="true" data-zappy-anchor-height="210" data-original-item-width="390" data-original-gap="20px" data-zappy-orig-style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: stretch; padding: 0 !important; max-width: 800px; margin-left: 280px; margin-right: 280px;"><div class="intro-content" style="display: flex !important; flex-direction: column !important; justify-content: flex-start !important; align-items: stretch !important;" data-zappy-grid-anchor="true" data-zappy-orig-style="margin: 0 !important; padding: 0 !important;">
+        <h2 class="zappy-editable" style="">ברוכים הבאים למאור מסגרות ובניו</h2>
+        <p class="zappy-editable">כשמדובר במסגרייה איכותית, אנחנו מבינים שכל פרויקט דורש דיוק, מקצועיות ומחויבות לאיכות. מאור מסגרות ובניו מספקת פתרונות מסגרות מתקדמים לתעשיית הבנייה והנדל״ן במרכז הארץ ובכל רחבי ישראל. אנחנו מתמחים בעבודות מסגרות לפרויקטי בנייה, תוך שימוש בטכנולוגיות מתקדמות וחומרים איכותיים.</p>
+        <p class="zappy-editable">עם ניסיון של שנים רבות בתחום המסגרייה, אנחנו מספקים שירותים מקיפים החל משלב התכנון ועד להתקנה הסופית. הצוות המקצועי שלנו מורכב ממסגרים מנוסים שמבינים את הצרכים הייחודיים של כל לקוח ופרויקט.</p>
+      </div><div class="zappy-inserted-element" data-zappy-media-cell="true" style="width: 100%; max-width: 100%; display: flex !important; flex-direction: column !important; align-items: stretch !important; justify-content: flex-start !important;" data-element-id="element-saved-1765657057008-nnjewlnxb" data-zappy-orig-style="margin: 0 !important; padding: 0 !important; display: flex; flex-direction: column; align-items: stretch; justify-content: stretch; width: 100%; height: 100%; width: 100%; max-width: 100%;"><img id="element-saved-1765655347065-0y57s5jt7rm" src="/assets/business-general-service-upload-1765695102319.webp?t=1765695108791" alt="Image" style="width: 100% !important; height: auto !important; border-radius: 8px; max-width: 100% !important; object-fit: contain !important; object-position: 50% 50%; position: relative; display: block !important; margin-left: auto; margin-right: auto; max-height: none !important;" data-element-type="image" class="zappy-editable-image" data-original-position="static" data-image-type="logo"></div></div>
     </div>
   </section>
 
   <section class="services-preview">
     <div class="container">
       <h2>מסגריה לקבלנים במרכז - השירותים שלנו</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <img data-placeholder="service-1" data-context="מסגר מקצועי מרתך מבני מתכת מורכבים בסדנת מסגרייה מודרנית" src="/assets/service-service-1.webp" alt="עבודות ריתוך ומסגרות מקצועיות" class="service-img">
-          <h3>מסגרות מתכת מותאמות אישית</h3>
-          <p>אנחנו מתמחים ביצור מסגרות מתכת מותאמות אישית לכל סוג של פרויקט בנייה. בין אם מדובר במבנים מסחריים, תעשייתיים או פרטיים, אנחנו מספקים פתרונות מדויקים שעומדים בכל הדרישות הטכניות והעיצוביות.</p>
-        </div>
-        <div class="service-card">
-          <img data-placeholder="service-2" data-context="מסגרות אלומיניום מודרניות מותקנות בפרויקט בנייה יוקרתי" src="/assets/service-service-2.webp" alt="מסגרות אלומיניום ליזמי נדל״ן" class="service-img">
-          <h3>מסגרות אלומיניום ליזמי נדל״ן</h3>
-          <p>מסגרות אלומיניום הן הבחירה המועדפת על יזמי נדל״ן המחפשים שילוב של עמידות, אסתטיקה ויעילות. אנחנו מספקים מסגרות אלומיניום איכותיות לחלונות, דלתות, חזיתות זכוכית ומערכות נוספות, תוך שמירה על סטנדרטים גבוהים של איכות ועמידות.</p>
-        </div>
-        <div class="service-card">
-          <img data-placeholder="service-3" data-context="עבודות מסגרות תעשייתיות מורכבות במפעל ייצור מודרני" src="/assets/service-service-3.webp" alt="עבודות מסגרות לפרויקטי בנייה תעשייתיים" class="service-img">
-          <h3>פתרונות תעשייתיים מתקדמים</h3>
-          <p>עבור יצרנים תעשייתיים, אנחנו מספקים חלקי מתכת מיוחדים ומסגרות תעשייתיות המותאמות לפסי ייצור ומוצרים תעשייתיים. הצוות שלנו מבין את הדרישות הספציפיות של התעשייה ומספק פתרונות שעומדים בסטנדרטים הגבוהים ביותר.</p>
-        </div>
-      </div>
+      <div class="services-grid zappy-preserve-css-grid" style="grid-template-columns: repeat(auto-fit, minmax(432px, 1fr));" data-original-item-width="432" data-original-gap="32px" data-zappy-orig-style="grid-template-columns: repeat(auto-fit, minmax(395px, 1fr));"><div class="service-card" data-zappy-orig-style="">
+          <img data-placeholder="service-2" data-context="מסגרות אלומיניום מודרניות מותקנות בפרויקט בנייה יוקרתי" src="/assets/service-service-2.webp" alt="מסגרות אלומיניום ליזמי נדל״ן" class="service-img zappy-editable-image" data-original-position="static" style="position: relative;">
+          <h3 class="zappy-editable">מסגרות אלומיניום ליזמי נדל״ן</h3>
+          <p class="zappy-editable">מסגרות אלומיניום הן הבחירה המועדפת על יזמי נדל״ן המחפשים שילוב של עמידות, אסתטיקה ויעילות. אנחנו מספקים מסגרות אלומיניום איכותיות לחלונות, דלתות, חזיתות זכוכית ומערכות נוספות, תוך שמירה על סטנדרטים גבוהים של איכות ועמידות.</p>
+        <div class="zappy-item-controls-bar" data-zappy-internal="true" data-no-icon-edit="true" style=""><button class="zappy-grid-item-menu-btn" title="Item options" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><circle cx="4.5" cy="9" r="1.5" fill="#4A4A4A"></circle><circle cx="9" cy="9" r="1.5" fill="#4A4A4A"></circle><circle cx="13.5" cy="9" r="1.5" fill="#4A4A4A"></circle></svg></button><div class="zappy-grid-item-menu" data-zappy-internal="true" data-no-icon-edit="true"><button class="zappy-grid-item-menu-btn-icon" title="Delete" data-zappy-internal="true" data-no-icon-edit="true"><svg width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15" fill="#FF0083"></circle><g transform="translate(7.5, 6.5)"><path d="M13.4583 2.83332H11.2625C10.9236 1.18545 9.47401 0.002125 7.79165 0H6.37497C4.6926 0.002125 3.24302 1.18545 2.90414 2.83332H0.708322C0.317123 2.83332 0 3.15045 0 3.54164C0 3.93284 0.317123 4.25 0.708322 4.25H1.41664V13.4583C1.419 15.4134 3.00329 16.9977 4.95832 17H9.20832C11.1634 16.9977 12.7476 15.4134 12.75 13.4583V4.25H13.4583C13.8495 4.25 14.1666 3.93288 14.1666 3.54168C14.1666 3.15048 13.8495 2.83332 13.4583 2.83332ZM6.375 12.0417C6.375 12.4329 6.05788 12.75 5.66668 12.75C5.27545 12.75 4.95832 12.4329 4.95832 12.0417V7.79168C4.95832 7.40048 5.27544 7.08336 5.66664 7.08336C6.05784 7.08336 6.37497 7.40048 6.37497 7.79168L6.375 12.0417ZM9.20832 12.0417C9.20832 12.4329 8.8912 12.75 8.5 12.75C8.1088 12.75 7.79168 12.4329 7.79168 12.0417V7.79168C7.79168 7.40048 8.1088 7.08336 8.5 7.08336C8.8912 7.08336 9.20832 7.40048 9.20832 7.79168V12.0417ZM4.37113 2.83332C4.67241 1.98495 5.47473 1.41774 6.375 1.41664H7.79168C8.69195 1.41774 9.49427 1.98495 9.79555 2.83332H4.37113Z" fill="white"></path></g></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align top" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 4.25H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="6.5" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align middle" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 9H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="5.75" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align bottom" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 13.75H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="5" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Duplicate" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><rect x="6" y="6" width="9" height="9" rx="2" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect><rect x="3" y="3" width="9" height="9" rx="2" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button></div></div></div><div class="service-card" data-zappy-orig-style="">
+          <img data-placeholder="service-1" data-context="מסגר מקצועי מרתך מבני מתכת מורכבים בסדנת מסגרייה מודרנית" src="/assets/service-service-1.webp" alt="עבודות ריתוך ומסגרות מקצועיות" class="service-img zappy-editable-image" data-original-position="static" style="position: relative;">
+          <h3 class="zappy-editable">מסגרות מתכת מותאמות אישית</h3>
+          <p class="zappy-editable">אנחנו מתמחים ביצור מסגרות מתכת מותאמות אישית לכל סוג של פרויקט בנייה. בין אם מדובר במבנים מסחריים, תעשייתיים או פרטיים, אנחנו מספקים פתרונות מדויקים שעומדים בכל הדרישות הטכניות והעיצוביות.</p>
+        <div class="zappy-item-controls-bar" data-zappy-internal="true" data-no-icon-edit="true"><button class="zappy-grid-item-menu-btn" title="Item options" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><circle cx="4.5" cy="9" r="1.5" fill="#4A4A4A"></circle><circle cx="9" cy="9" r="1.5" fill="#4A4A4A"></circle><circle cx="13.5" cy="9" r="1.5" fill="#4A4A4A"></circle></svg></button><div class="zappy-grid-item-menu" data-zappy-internal="true" data-no-icon-edit="true"><button class="zappy-grid-item-menu-btn-icon" title="Delete" data-zappy-internal="true" data-no-icon-edit="true"><svg width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15" fill="#FF0083"></circle><g transform="translate(7.5, 6.5)"><path d="M13.4583 2.83332H11.2625C10.9236 1.18545 9.47401 0.002125 7.79165 0H6.37497C4.6926 0.002125 3.24302 1.18545 2.90414 2.83332H0.708322C0.317123 2.83332 0 3.15045 0 3.54164C0 3.93284 0.317123 4.25 0.708322 4.25H1.41664V13.4583C1.419 15.4134 3.00329 16.9977 4.95832 17H9.20832C11.1634 16.9977 12.7476 15.4134 12.75 13.4583V4.25H13.4583C13.8495 4.25 14.1666 3.93288 14.1666 3.54168C14.1666 3.15048 13.8495 2.83332 13.4583 2.83332ZM6.375 12.0417C6.375 12.4329 6.05788 12.75 5.66668 12.75C5.27545 12.75 4.95832 12.4329 4.95832 12.0417V7.79168C4.95832 7.40048 5.27544 7.08336 5.66664 7.08336C6.05784 7.08336 6.37497 7.40048 6.37497 7.79168L6.375 12.0417ZM9.20832 12.0417C9.20832 12.4329 8.8912 12.75 8.5 12.75C8.1088 12.75 7.79168 12.4329 7.79168 12.0417V7.79168C7.79168 7.40048 8.1088 7.08336 8.5 7.08336C8.8912 7.08336 9.20832 7.40048 9.20832 7.79168V12.0417ZM4.37113 2.83332C4.67241 1.98495 5.47473 1.41774 6.375 1.41664H7.79168C8.69195 1.41774 9.49427 1.98495 9.79555 2.83332H4.37113Z" fill="white"></path></g></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align top" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 4.25H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="6.5" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align middle" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 9H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="5.75" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align bottom" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 13.75H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="5" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Duplicate" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><rect x="6" y="6" width="9" height="9" rx="2" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect><rect x="3" y="3" width="9" height="9" rx="2" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button></div></div></div><div class="service-card" data-zappy-orig-style="">
+          <img data-placeholder="service-3" data-context="עבודות מסגרות תעשייתיות מורכבות במפעל ייצור מודרני" src="/assets/service-service-3.webp" alt="עבודות מסגרות לפרויקטי בנייה תעשייתיים" class="service-img zappy-editable-image" data-original-position="static" style="position: relative;">
+          <h3 class="zappy-editable">פתרונות תעשייתיים מתקדמים</h3>
+          <p class="zappy-editable">עבור יצרנים תעשייתיים, אנחנו מספקים חלקי מתכת מיוחדים ומסגרות תעשייתיות המותאמות לפסי ייצור ומוצרים תעשייתיים. הצוות שלנו מבין את הדרישות הספציפיות של התעשייה ומספק פתרונות שעומדים בסטנדרטים הגבוהים ביותר.</p>
+        <div class="zappy-item-controls-bar" data-zappy-internal="true" data-no-icon-edit="true"><button class="zappy-grid-item-menu-btn" title="Item options" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><circle cx="4.5" cy="9" r="1.5" fill="#4A4A4A"></circle><circle cx="9" cy="9" r="1.5" fill="#4A4A4A"></circle><circle cx="13.5" cy="9" r="1.5" fill="#4A4A4A"></circle></svg></button><div class="zappy-grid-item-menu" data-zappy-internal="true" data-no-icon-edit="true"><button class="zappy-grid-item-menu-btn-icon" title="Delete" data-zappy-internal="true" data-no-icon-edit="true"><svg width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15" fill="#FF0083"></circle><g transform="translate(7.5, 6.5)"><path d="M13.4583 2.83332H11.2625C10.9236 1.18545 9.47401 0.002125 7.79165 0H6.37497C4.6926 0.002125 3.24302 1.18545 2.90414 2.83332H0.708322C0.317123 2.83332 0 3.15045 0 3.54164C0 3.93284 0.317123 4.25 0.708322 4.25H1.41664V13.4583C1.419 15.4134 3.00329 16.9977 4.95832 17H9.20832C11.1634 16.9977 12.7476 15.4134 12.75 13.4583V4.25H13.4583C13.8495 4.25 14.1666 3.93288 14.1666 3.54168C14.1666 3.15048 13.8495 2.83332 13.4583 2.83332ZM6.375 12.0417C6.375 12.4329 6.05788 12.75 5.66668 12.75C5.27545 12.75 4.95832 12.4329 4.95832 12.0417V7.79168C4.95832 7.40048 5.27544 7.08336 5.66664 7.08336C6.05784 7.08336 6.37497 7.40048 6.37497 7.79168L6.375 12.0417ZM9.20832 12.0417C9.20832 12.4329 8.8912 12.75 8.5 12.75C8.1088 12.75 7.79168 12.4329 7.79168 12.0417V7.79168C7.79168 7.40048 8.1088 7.08336 8.5 7.08336C8.8912 7.08336 9.20832 7.40048 9.20832 7.79168V12.0417ZM4.37113 2.83332C4.67241 1.98495 5.47473 1.41774 6.375 1.41664H7.79168C8.69195 1.41774 9.49427 1.98495 9.79555 2.83332H4.37113Z" fill="white"></path></g></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align top" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 4.25H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="6.5" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align middle" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 9H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="5.75" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Align bottom" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><path d="M3 13.75H15" stroke="#4A4A4A" stroke-width="1.6" stroke-linecap="round"></path><rect x="5" y="5" width="8" height="6.5" rx="1.5" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button><button class="zappy-grid-item-menu-btn-icon" title="Duplicate" data-zappy-internal="true" data-no-icon-edit="true"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true"><rect x="6" y="6" width="9" height="9" rx="2" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect><rect x="3" y="3" width="9" height="9" rx="2" fill="none" stroke="#4A4A4A" stroke-width="1.4"></rect></svg></button></div></div></div></div>
       <div class="cta-center">
         <a href="/services" class="btn-secondary">גלו את כל השירותים שלנו</a>
       </div>
@@ -809,36 +805,31 @@
   <section class="why-choose">
     <div class="container">
       <h2>למה לבחור במסגרייה שלנו?</h2>
-      <div class="features-grid">
-        <div class="feature-item">
+      <div class="features-grid zappy-preserve-css-grid" style="grid-template-columns: repeat(2, minmax(0px, 1fr)) !important;" data-original-item-width="609" data-original-gap="32px" data-zappy-orig-style="grid-template-columns: repeat(auto-fit, minmax(289px, 1fr));" data-zappy-explicit-columns="true"><div class="feature-item" data-zappy-orig-style="" style="">
           <div class="feature-icon">
-            <i class="fas fa-medal"></i>
+            <i class="fas fa-medal" data-element-type="icon" data-element-id="icon-1765662691203-m3oabyemx" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
           </div>
-          <h3>ניסיון של שנים</h3>
-          <p>עם ניסיון רב שנים בתחום המסגרות והמתכת, אנחנו מביאים מומחיות שאין לה תחליף. כל פרויקט מטופל בידי אנשי מקצוע מנוסים שמכירים את התעשייה לעומק.</p>
-        </div>
-        <div class="feature-item">
+          <h3 class="zappy-editable">ניסיון של שנים</h3>
+          <p class="zappy-editable">עם ניסיון רב שנים בתחום המסגרות והמתכת, אנחנו מביאים מומחיות שאין לה תחליף. כל פרויקט מטופל בידי אנשי מקצוע מנוסים שמכירים את התעשייה לעומק.</p>
+        </div><div class="feature-item" data-zappy-orig-style="" style="">
           <div class="feature-icon">
-            <i class="fas fa-tools"></i>
+            <i class="fas fa-tools" data-element-type="icon" data-element-id="icon-1765662691203-t555a1fz9" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
           </div>
-          <h3>ציוד מתקדם</h3>
-          <p>אנחנו משתמשים בציוד ובטכנולוגיות המתקדמות ביותר בתעשייה, מה שמאפשר לנו לספק עבודות מסגרות ברמת דיוק ואיכות גבוהה במיוחד.</p>
-        </div>
-        <div class="feature-item">
+          <h3 class="zappy-editable">ציוד מתקדם</h3>
+          <p class="zappy-editable">אנחנו משתמשים בציוד ובטכנולוגיות המתקדמות ביותר בתעשייה, מה שמאפשר לנו לספק עבודות מסגרות ברמת דיוק ואיכות גבוהה במיוחד.</p>
+        </div><div class="feature-item" data-zappy-orig-style="" style="">
           <div class="feature-icon">
-            <i class="fas fa-handshake"></i>
+            <i class="fas fa-handshake" data-element-type="icon" data-element-id="icon-1765662691203-18xvd1ojn" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
           </div>
-          <h3>אמינות ומקצועיות</h3>
-          <p>אנחנו מחויבים לעמוד בלוחות זמנים ולספק שירות אמין ומקצועי. הלקוחות שלנו יודעים שהם יכולים לסמוך עלינו בכל שלב של הפרויקט.</p>
-        </div>
-        <div class="feature-item">
+          <h3 class="zappy-editable">אמינות ומקצועיות</h3>
+          <p class="zappy-editable">אנחנו מחויבים לעמוד בלוחות זמנים ולספק שירות אמין ומקצועי. הלקוחות שלנו יודעים שהם יכולים לסמוך עלינו בכל שלב של הפרויקט.</p>
+        </div><div class="feature-item" data-zappy-orig-style="" style="">
           <div class="feature-icon">
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star" data-element-type="icon" data-element-id="icon-1765662691203-nisq9if1a" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
           </div>
-          <h3>איכות ללא פשרות</h3>
-          <p>אנחנו משתמשים רק בחומרים איכותיים ביותר ומקפידים על סטנדרטים גבוהים בכל שלב של העבודה. האיכות שלנו מדברת בעד עצמה.</p>
-        </div>
-      </div>
+          <h3 class="zappy-editable">איכות ללא פשרות</h3>
+          <p class="zappy-editable">אנחנו משתמשים רק בחומרים איכותיים ביותר ומקפידים על סטנדרטים גבוהים בכל שלב של העבודה. האיכות שלנו מדברת בעד עצמה.</p>
+        </div></div>
     </div>
   </section>
 

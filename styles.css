@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
 
 /* Self-hosted fonts */
 /* Self-hosted fonts */
@@ -104,7 +104,8 @@ img {
   --shadow: 0 4px 12px rgba(0,0,0,0.1);
   --nav-color: #1a1a1a;
   --nav-hover-color: #8b8b8b;
-}
+
+  --heading-font: 'Nunito', sans-serif;}
 
 .container {
   max-width: 1440px;
